@@ -1,0 +1,114 @@
+* {
+    font-family: 'Poppins';
+    font-size: 22px;
+    color: white;
+    
+}
+
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    background-color: #eb4432;
+    text-align: center;
+   
+}
+
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+.subhead {
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color:#fecc4c;
+}
+
+
+
+.box{
+    display: flex;
+    padding: 20px;
+    background-color: #830000;
+    color: black;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+} 
+
+
+input, select, textarea{
+    color: black;
+}
+
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+.result {
+    display: none;
+    margin: 20px;
+}
+
+#content {
+    
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#info {
+    background-color: #230046;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left:20px;
+    text-align: center;
+}
+
+#info ul {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#info p {
+    margin-bottom: 40px;
+}
+
+
+
+footer {
+    background-color: #eb4432;
+    position: relative;  
+    bottom: -56px;
+    right: 0px;
+    left: 0px;  
+    padding: 20px;
+    text-align: center; 
+}
