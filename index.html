@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Kalkulator BMI</h1>
+            <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di BMI Kalkulator.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class ="box">
+               <form>
+
+                <label>Jenis Kelamin</label> <br>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+                <br><br>
+
+                <label>Tinggi (cm)</label> <br>
+                <input id= "tinggi" type="number" name="tinggi"  />
+
+               <br><br>
+
+               <label>Berat Badan (kg)</label> <br>
+                <input id="bb" type="number"  name="bb" />
+                <br><br>
+
+              <button id = "button-submit">Hitung BMI</button>
+               </form>
+
+               
+            </div>
+        </div>
+
+        <div class = "result" id="result">
+            
+            <div id="content">
+                 
+            </div>
+
+            <div id = "info">
+                
+            </div>
+        </div>
+
+        <footer>
+            <p>Dibuat Oleh <strong>Ivan Rafli Adipratama</strong> </p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
